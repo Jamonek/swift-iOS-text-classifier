@@ -15,6 +15,8 @@
 		64F594A61C05D8E400C85067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F594A41C05D8E400C85067 /* LaunchScreen.storyboard */; };
 		64F594B11C05D8E400C85067 /* Text_ClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F594B01C05D8E400C85067 /* Text_ClassifierTests.swift */; };
 		64F594BC1C05D8E500C85067 /* Text_ClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F594BB1C05D8E500C85067 /* Text_ClassifierUITests.swift */; };
+		64F594CB1C05DE7200C85067 /* ClassifierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F594CA1C05DE7200C85067 /* ClassifierVC.swift */; };
+		64F594CD1C05DEEB00C85067 /* ClassifierCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F594CC1C05DEEB00C85067 /* ClassifierCVCell.swift */; };
 		DC78CD3A98166EADE961CA99 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97CABDDB315FB655C0447D3 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,8 @@
 		64F594B71C05D8E500C85067 /* Text ClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text ClassifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F594BB1C05D8E500C85067 /* Text_ClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ClassifierUITests.swift; sourceTree = "<group>"; };
 		64F594BD1C05D8E500C85067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F594CA1C05DE7200C85067 /* ClassifierVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifierVC.swift; sourceTree = "<group>"; };
+		64F594CC1C05DEEB00C85067 /* ClassifierCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifierCVCell.swift; sourceTree = "<group>"; };
 		6A4D34E8E2880D97291A13E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A97CABDDB315FB655C0447D3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B3DDD0EF7F568476336B37 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 		64F594971C05D8E400C85067 /* Text Classifier */ = {
 			isa = PBXGroup;
 			children = (
+				64F594C91C05DE4F00C85067 /* Classifier */,
 				64F594981C05D8E400C85067 /* AppDelegate.swift */,
 				64F5949A1C05D8E400C85067 /* ViewController.swift */,
 				64F5949C1C05D8E400C85067 /* Main.storyboard */,
@@ -142,6 +147,15 @@
 				64F594BD1C05D8E500C85067 /* Info.plist */,
 			);
 			path = "Text ClassifierUITests";
+			sourceTree = "<group>";
+		};
+		64F594C91C05DE4F00C85067 /* Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				64F594CA1C05DE7200C85067 /* ClassifierVC.swift */,
+				64F594CC1C05DEEB00C85067 /* ClassifierCVCell.swift */,
+			);
+			name = Classifier;
 			sourceTree = "<group>";
 		};
 		C3C8D0B6FBB73898D5AAB10D /* Frameworks */ = {
@@ -337,6 +351,8 @@
 				64F594A11C05D8E400C85067 /* Text_Classifier.xcdatamodeld in Sources */,
 				64F5949B1C05D8E400C85067 /* ViewController.swift in Sources */,
 				64F594991C05D8E400C85067 /* AppDelegate.swift in Sources */,
+				64F594CB1C05DE7200C85067 /* ClassifierVC.swift in Sources */,
+				64F594CD1C05DEEB00C85067 /* ClassifierCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
