@@ -9,5 +9,7 @@
 import UIKit
 
 class ClassifierCVCell: UICollectionViewCell {
+    @IBOutlet var text: UILabel!
+    @IBOutlet var category: UILabel!
     
 }
