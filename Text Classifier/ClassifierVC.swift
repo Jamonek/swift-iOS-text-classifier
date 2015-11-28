@@ -18,7 +18,7 @@ class ClassifierVC: UIViewController, UICollectionViewDataSource, UICollectionVi
     @IBOutlet var trainTextField: UITextField!
     @IBOutlet var trainCategoryField: UITextField!
     @IBOutlet var classifyTextField: UITextField!
-    let classifier = NaiveBayesClassifier()
+    lazy var classifier = NaiveBayesClassifier()
     @IBOutlet var classifyResultTextField: UILabel!
     var classifierData : Results<CData>?
     
@@ -33,6 +33,13 @@ class ClassifierVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         // Attach functions to our buttons
         self.trainButton.addTarget(self, action: "trainClassifier:", forControlEvents: .TouchUpInside)
         self.classifyButton.addTarget(self, action: "classify:", forControlEvents: .TouchUpInside)
+        
+        let tap = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        self.view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        self.view.endEditing(true)
     }
     
     func populate() {
