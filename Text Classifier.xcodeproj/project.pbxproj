@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		64A094F41C098F9800100A20 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 64A094F31C098F9800100A20 /* README.md */; };
 		64F594991C05D8E400C85067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F594981C05D8E400C85067 /* AppDelegate.swift */; };
 		64F5949B1C05D8E400C85067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F5949A1C05D8E400C85067 /* ViewController.swift */; };
 		64F5949E1C05D8E400C85067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F5949C1C05D8E400C85067 /* Main.storyboard */; };
@@ -40,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		64A094F31C098F9800100A20 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		64F594951C05D8E400C85067 /* Text Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F594981C05D8E400C85067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F5949A1C05D8E400C85067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 		64F594971C05D8E400C85067 /* Text Classifier */ = {
 			isa = PBXGroup;
 			children = (
-				64A094F31C098F9800100A20 /* README.md */,
 				64F594C91C05DE4F00C85067 /* Classifier */,
 				64F594981C05D8E400C85067 /* AppDelegate.swift */,
 				64F5949A1C05D8E400C85067 /* ViewController.swift */,
@@ -357,7 +354,6 @@
 				64F594A11C05D8E400C85067 /* Text_Classifier.xcdatamodeld in Sources */,
 				64F5949B1C05D8E400C85067 /* ViewController.swift in Sources */,
 				64F594991C05D8E400C85067 /* AppDelegate.swift in Sources */,
-				64A094F41C098F9800100A20 /* README.md in Sources */,
 				64F594CF1C06681100C85067 /* CData.swift in Sources */,
 				64F594CB1C05DE7200C85067 /* ClassifierVC.swift in Sources */,
 				64F594CD1C05DEEB00C85067 /* ClassifierCVCell.swift in Sources */,
