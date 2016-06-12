@@ -1,0 +1,6 @@
+framework module Parsimmon {
+  umbrella header "Parsimmon-umbrella.h"
+
+  export *
+  module * { export * }
+}

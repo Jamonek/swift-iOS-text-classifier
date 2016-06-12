@@ -111,7 +111,7 @@ class ClassifierVC: UIViewController, UICollectionViewDataSource, UICollectionVi
         }
         // Train with input
         self.classifier.trainWithText(trainingText, category: trainingCategory)
-    
+        
         try! realm.write {
             let cData : CData = CData()
             cData.text = trainingText
