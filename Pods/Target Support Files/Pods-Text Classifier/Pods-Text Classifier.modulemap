@@ -1,0 +1,6 @@
+framework module Pods_Text_Classifier {
+  umbrella header "Pods-Text Classifier-umbrella.h"
+
+  export *
+  module * { export * }
+}
